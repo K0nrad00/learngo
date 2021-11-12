@@ -22,6 +22,12 @@ package main
 //  "go1.10"
 // ---------------------------------------------------------
 
+import (
+	"fmt"
+	"runtime"
+)
+
 func main() {
-	// ?
+	ver := runtime.Version()
+	fmt.Println(ver)
 }
